@@ -4,6 +4,7 @@
 @import "font-awesome";
 
 //configフォルダのscss
+@import "config/header/config-search-header";
 @import "config/toppage/config-top";
 @import "config/user-menu/config-user-menu";
 @import "config/detail-products/config-detail-products";
@@ -12,6 +13,7 @@
 @import "variable/products/variable.scss";
 
 //mixinフォルダのscss
+@import "mixin/header/mixin-search-header";
 @import "mixin/toppage/mixin-top";
 @import "mixin/user-menu/mixin-user-menu";
 @import "mixin/detail-products/mixin-detail-products";
@@ -33,10 +35,12 @@
 @import "modules/detail-products/detail-products.scss";
 @import "purchase/complete";
 @import "purchase/confirmation";
-
+@import "modules/addresses/new";
+@import "modules/users/edit";
 
 //usersのフォルダーのscss
 @import "users/login";
+@import "users/sign-up";
 
 //paswordのフォルダーのscss
 @import "users/sign-up";
